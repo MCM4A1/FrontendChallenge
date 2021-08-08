@@ -1,0 +1,22 @@
+.navWrap {
+  position: fixed;
+  top: 0px;
+  display: flex;
+  width: 90%;
+  background-color: gray;
+  box-shadow: 0px 0px 1em 0.1em black;
+  margin: auto;
+  justify-content: space-between;
+  padding: 0.2em 5%;
+  color: white;
+}
+.navWrap a {
+  text-decoration: none;
+  color: white;
+  transition: 0.3s all;
+}
+.navWrap a:hover {
+  text-shadow: 0 0 0.2em white;
+}
+
+/*# sourceMappingURL=navigation.css.map */

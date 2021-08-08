@@ -1,0 +1,27 @@
+$dark-blue-shadow: #1313ff;
+
+
+.loginWrap, .article{
+    display: flex;
+    flex-direction: column;
+    width: 20em;
+    margin: 2em auto;
+    box-shadow: 0 0 .4em .1em $dark-blue-shadow;
+    padding: 1em;
+    border-radius: 1em;
+    input{
+        width: 60%;
+        margin: .2em auto;
+        height: 2em;
+        font-size: .7em;
+        font-weight: 700;
+        text-align: center;
+        border-radius: .5em;
+    }
+    button{
+        margin: .2em auto;
+        font-size: .5em;
+    }
+    text-align: center;
+}
+

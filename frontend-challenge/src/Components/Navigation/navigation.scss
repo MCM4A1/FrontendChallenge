@@ -1,0 +1,20 @@
+.navWrap{
+    position: fixed;
+    top: 0px;
+    display: flex;
+    width: 90%;
+    background-color: gray;
+    box-shadow: 0px 0px 1em .1em black;
+    margin:  auto;
+    justify-content: space-between;
+    padding: .2em 5%;
+    color: white;
+    a{
+        text-decoration: none;
+        color: white;
+        transition: .3s all;
+    }
+    a:hover{
+        text-shadow: 0 0 .2em white;
+    }
+}
